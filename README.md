@@ -4,7 +4,7 @@ The difference between a **web server** and an **application server** comes down
 
 ---
 
-## 1. Web Server (Simple + Fast)
+# 1. Web Server (Simple + Fast)
 
 A **web server** is mainly responsible for **handling HTTP requests and serving static content**.
 
@@ -31,7 +31,7 @@ A **web server** is mainly responsible for **handling HTTP requests and serving 
 
 ---
 
-## 2. Application Server (Logic + Processing)
+# 2. Application Server (Logic + Processing)
 
 An **application server** handles **business logic and dynamic content generation**.
 
@@ -46,7 +46,7 @@ An **application server** handles **business logic and dynamic content generatio
 
 * You log into a site → app server checks your credentials in a database and returns your dashboard
 
-### 🔧 Examples:
+### Examples:
 
 * Apache Tomcat
 * WildFly
