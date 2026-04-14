@@ -99,11 +99,9 @@ Today, tools like Nginx and Node.js can **blur the line**:
 * Node.js can act as both web + app server
 * Nginx can handle some logic via reverse proxy + caching
 
-Good — this confusion is very normal, because people (and even tutorials) use the terms loosely. Let’s fix it clearly and permanently.
-
 ---
 
-# Short answer first
+# Node.js
 
 **Node.js is NOT strictly an application server or a web server.**
 It is a **runtime environment**.
