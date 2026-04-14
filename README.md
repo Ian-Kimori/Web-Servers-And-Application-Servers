@@ -113,9 +113,9 @@ More precisely:
 
 ---
 
-# ⚙️ 1. What Node.js actually is
+## a. What Node.js actually is
 
-## Definition
+### Definition
 
 Node.js is a **runtime environment** that allows JavaScript to run outside the browser.
 
@@ -130,7 +130,7 @@ But it does NOT force any architecture.
 
 ---
 
-# 2. Why people call it “application server”
+## b. Why people call it “application server”
 
 Because in real projects you often do this:
 
@@ -155,7 +155,7 @@ So it behaves like an **application server**
 
 ---
 
-# 3. Why people also call it a “web server”
+## c. Why people also call it a “web server”
 
 Because Node.js can directly:
 
@@ -174,7 +174,7 @@ It is acting as a **web server**
 
 ---
 
-# 4. Clean separation (THIS is the key)
+## d. Clean separation (THIS is the key)
 
 ## Runtime (what Node.js is)
 
@@ -208,7 +208,7 @@ Node.js native `http` module = web server
 
 ---
 
-# 5. The REAL truth (important)
+# e. The REAL truth (important)
 
 Node.js is:
 
@@ -219,7 +219,7 @@ BUT a platform to build servers
 
 ---
 
-# 6. Compare with other systems
+# f. Compare with other systems
 
 ## Java
 
@@ -239,7 +239,7 @@ That’s why it feels confusing
 
 ---
 
-# 7. Simple analogy
+# g. Simple analogy
 
 ## Think of it like this:
 
@@ -254,7 +254,7 @@ Node.js = kitchen where anything can be built
 
 ---
 
-# 8. Final clean mental model
+# h. Final clean mental model
 
 ## Correct understanding:
 
@@ -280,7 +280,7 @@ Node.js alone → handles everything (small apps)
 
 ---
 
-# 9. Why people get confused
+# i. Why people get confused
 
 Because Node.js:
 
@@ -304,16 +304,9 @@ If you want, I can next show you:
 
 That’s where this becomes very useful in cybersecurity.
 
-
-
-
-
-
-
-
 ---
 
-# 1. The Big Picture (Layered Architecture)
+# 3. The Big Picture (Layered Architecture)
 
 ```text
 Client (Browser)
@@ -331,7 +324,7 @@ Database
 
 ---
 
-# 2. Core Components & Their Roles
+# 4. Core Components & Their Roles
 
 ## Web Server
 
@@ -358,7 +351,7 @@ Database
 
 ---
 
-# 3. Language → Application Server → Framework → Web Server
+# 5. Language → Application Server → Framework → Web Server
 Think of an application server as the environment that executes your backend code.
 
 This is the **most important mapping**
@@ -610,5 +603,3 @@ A **fingerprinting cheat sheet**
 
 * Exact headers, cookies, and errors → map to stack instantly
 * e.g. “If you see THIS → it’s Django behind Nginx”
-
-Just tell me 🔥
