@@ -176,7 +176,7 @@ It is acting as a **web server**
 
 ## d. Clean separation (THIS is the key)
 
-## Runtime (what Node.js is)
+## (i). Runtime (what Node.js is)
 
 | Type    | Meaning                        |
 | ------- | ------------------------------ |
@@ -188,7 +188,7 @@ Example:
 
 ---
 
-## Application Server (what Node.js can become)
+## (ii). Application Server (what Node.js can become)
 
 | Type               | Meaning                   |
 | ------------------ | ------------------------- |
@@ -198,7 +198,7 @@ Node.js + Express = application server
 
 ---
 
-## Web Server (what Node.js can also become)
+## (iii). Web Server (what Node.js can also become)
 
 | Type       | Meaning               |
 | ---------- | --------------------- |
