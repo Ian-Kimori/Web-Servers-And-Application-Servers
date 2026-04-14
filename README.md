@@ -530,7 +530,7 @@ Relation:
 
 ---
 
-# 4. Relationship Summary (One Line Per Layer)
+## a. Relationship Summary (One Line Per Layer)
 
 * **Web Server** → receives request, forwards it
 * **Application Server** → runs the program
@@ -540,7 +540,7 @@ Relation:
 
 ---
 
-# 5. Special Cases (Important)
+## b. Special Cases (Important)
 
 ## All-in-one (No separate web server)
 
@@ -556,7 +556,7 @@ Client → App Server (does everything)
 
 ---
 
-## Traditional / Production Setup
+## c. Traditional / Production Setup
 
 ```text
 Client → Web Server → App Server → Framework → App
@@ -570,7 +570,7 @@ Used for:
 
 ---
 
-# 6. Pentesting Mapping (What you infer)
+## d. Pentesting Mapping (What you infer)
 
 Using Burp Suite:
 
@@ -583,7 +583,7 @@ Using Burp Suite:
 
 ---
 
-# Final Mental Model (Memorize This)
+## e. Final Mental Model (Memorize This)
 
 ```text
 Language → Framework → Application Server → Web Server
